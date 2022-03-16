@@ -1,0 +1,9 @@
+A dependência json-server lê um arquivo json e cria uma API mock baseada nesse arquivo.
+O arquivo é o: 'db.json'.
+É necessário chamar a api na rota 3001, como ex: 'http://localhost:3001/products'
+Para que o arquivo de json seja lido é necessário executar a aplicação com o comando 'npm start'
+
+Como configurar o projeto:
+1 - passo: npm init -y (cria o package.json)
+2 - passo: npm i json-server (instala a dependência no package.json)
+3 - passo: definir o script do package.json > "start": "json-server --watch db.json --port 3001"
